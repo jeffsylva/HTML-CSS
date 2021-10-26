@@ -1,0 +1,41 @@
+<html>
+<title> PAY GRADE </title>
+</head>
+<body>
+
+
+<script LANGUAGE = "Javascript" type="text/javascript">
+
+var uname; 
+	var hours; 
+	var wage; 
+	var total; 
+	wage = 32;
+document.write("<br><br><br><br>");
+uname=prompt("Enter Name?");
+document.write("Name:  "+uname);
+
+document.write("<br>")
+
+hours=prompt("Enter Total Hours Worked:");
+document.write("Total Hours Worked: "+hours);
+
+document.write("<br>")
+
+
+total = (40 * wage) + (hours - 40) * wage * 1.5;
+
+if (total > 1800)
+{
+	document.write("<h2><font color=blue> Pay grade: A </font> ");
+}
+else 
+{
+	document.write("<h2><font color=blue> Pay grade: B </font> ");
+}
+
+
+</script>
+
+</body>
+</html>
